@@ -347,7 +347,8 @@ header .follow a:hover{
     padding-top: .5rem;
 }
 .service{
-    padding-left: 3%;
+    padding-left: 5%;
+    padding-right:5%;
     padding-bottom: 5%;
 }
 .Experience{
@@ -398,14 +399,35 @@ header .follow a:hover{
 .icons h3{
     text-align: center;
 }
-.contact{
-    margin-top: 50px;
-}
 .contact .icons-container{
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+}
+
+.contact{
+    margin-top: 50px;
+}
+.projects .icons-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+.projects .icons-container .icons{
+    flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    margin-bottom: auto;
+
+}
+.project{
+    padding-left:5%;
+    padding-right:5%;
 }
 
 .contact .icons-container .icons{
